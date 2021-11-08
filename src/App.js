@@ -1,7 +1,9 @@
+import MenuComponent from "./components/MenuComponent";
+
 function App() {
   return (
     <div>
-      <h1> Hello World </h1>
+      <MenuComponent />
     </div>
   )
 }
