@@ -48,16 +48,16 @@ export default function MenuComponent() {
                 </Menu>
             </Box>
             <Box color='#ffff' d='flex' flexDirection='column' justifyContent='center' textAlign='center'> 
-                <Text fontSize='20px'>
+                <Text fontSize={['30px', '30px', '30px', '50px']}>
                     Say hello to ReactJS
                 </Text>
-                <Text mt='30px'>
+                <Text fontSize={['20px', '20px', '20px', '30px']} mt={['30px', '30px', '5px', '5px']}>
                     You will leran how to use <br />
                     the most popular frontend libray, <br />
                     and become a super Ninja developer
                 </Text>
             </Box>
-            <Box d='flex' justifyContent='center' mt='50px'> 
+            <Box d='flex' justifyContent='center' mt='5px'> 
                 <Button w='100px'> Awesome </Button>
             </Box>
         </Box>
